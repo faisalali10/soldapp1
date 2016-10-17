@@ -4,7 +4,7 @@
     // Class ------------------------------------------------
     var Config = {};
     
-    Config.host = "https://soldapp.herokuapp.com";
+    Config.host = "https://soldapp2.herokuapp.com";
     Config.port = process.env.PORT || 3000;
     Config.urlPrefix = '/spika';
     Config.socketNameSpace = '/spika';
@@ -20,7 +20,7 @@
     Config.uploadDir = 'public/uploads/';
     Config.sendAttendanceMessage = true;
     
-    Config.stickerBaseURL = 'https://soldapp.herokuapp.com/spika';
+    Config.stickerBaseURL = 'https://soldapp2.herokuapp.com/spika';
     Config.stickerAPI = Config.stickerBaseURL + '/api/v2/stickers/56e005b1695213295419f5df';
     
     // Exports ----------------------------------------------
